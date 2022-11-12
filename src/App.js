@@ -22,5 +22,4 @@ function App() {
   );
 }
 
-function intersectionOfArrays(arr1, )
 export default App;
