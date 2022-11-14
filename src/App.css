@@ -3,6 +3,36 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  place-items: center;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: clamp(2em, 2vw, 4em);
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: clamp(1em, 2vw, 2em);
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+
 .spacer {
   aspect-ratio: 960/540;
   width: 100%;
@@ -13,7 +43,7 @@ html {
   margin-right: 0px;
 }
 
-.App{
+.App {
   color: whitesmoke;
 }
 
@@ -30,11 +60,11 @@ html {
   color: white;
   position: fixed;
   height: 60px;
-	top: 0;
+  top: 0;
   z-index: 1;
   width: 100%;
 }
 
-.App-link{
+.App-link {
   color: #61dafb;
 }

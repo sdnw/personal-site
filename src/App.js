@@ -30,7 +30,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-      <Welcome id="Welcome" />
+      <Welcome id="Welcome"/>
       </div>
     </ThemeProvider>
   );
